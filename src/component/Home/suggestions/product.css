@@ -1,0 +1,34 @@
+@media (max-width:980px) {
+    #showProducts {
+        width: 44% !important;
+    }
+}
+#myDialog{
+    border: none;
+    box-shadow: 4px 4px 10px 0px #0000000F;
+
+}
+.RelatedTags {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.tags {
+
+    border-radius: 4px;
+
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    background: #ECECEC;
+
+    letter-spacing: 0em;
+    padding: 10px 20px;
+    margin: 4px;
+
+}

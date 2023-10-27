@@ -1,0 +1,66 @@
+.bg-title{
+    background-image: url('./frontImage.png');
+    background-repeat: no-repeat;
+    background-attachment:fixecd;
+    background-position-y: bottom;
+
+    background-origin: border-box;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bg-title>p{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+
+}
+.bg-title>small{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;   
+
+}
+.bg-title>label{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding-left: 1%;
+    border-radius: 8px;
+}
+svg{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #A7A7A7;
+    line-height: 1px;
+}
+.bg-title>label>input[type="search"]{
+    width: 100%;
+    height: 54px; 
+    border:none;
+    outline: none;
+    padding: 1%;
+}
+.bg-title>label>input[type="search"]::placeholder{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
